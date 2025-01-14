@@ -4,7 +4,7 @@ import { Typography } from '@mui/material';
 const chartSetting = {
   xAxis: [  
   ],
-  width: 500,
+  width: 400,
   height: 300,
 };
 const calculateData = (data) => {
@@ -29,7 +29,7 @@ const calculateData = (data) => {
   return (
    <>
    <Typography>{title}</Typography>
-    <BarChart sx={{marginLeft:"30px" }}
+    <BarChart sx={{marginLeft:"20px" }}
       dataset={newData}
       yAxis={[{ scaleType: 'band', dataKey: 'company', }]}
       series={[{ dataKey: 'total'}]}
