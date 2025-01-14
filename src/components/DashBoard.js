@@ -23,7 +23,7 @@ const DashBoard = ({data}) => {
     <div className='container'>
         <div style={{ backgroundColor:"grey",color:'#333', width:'auto',height:"40px",fontStyle:"bold"}}>
           <h2>eletric vehicles population</h2> </div>
-         <Grid2 gap={1} container sx={{marginLeft:'5%'}}>
+         <Grid2  container sx={{marginLeft:'5%'}}>
          <Grid2 md={2.2}>
 <Paper  elevation={3} sx={{margin:'10px' ,padding:"10px",width:'250px'}}>
 <Typography variant='h6'>total vehicles</Typography>

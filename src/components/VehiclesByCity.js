@@ -3,8 +3,8 @@ import { BarChart } from '@mui/x-charts/BarChart';
 import { Typography } from '@mui/material';
 
 const chartSetting = {
-  width: 400,
-  height: 300,
+  width: 550,
+  height: 330,
 };
 
 const calculateTopElectricVehiclesByCity = (data) => {

@@ -3,7 +3,7 @@ import { BarChart } from '@mui/x-charts/BarChart';
 import { Typography } from '@mui/material';
 
 const chartSetting = {
-  width: 400,
+  width: 550,
   height: 330,
 };
 
