@@ -13,7 +13,7 @@ function App() {
   
   useEffect(() => {
     axios
-      .get('/data/Electric_Vehicle_Population_Data.csv', { responseType: 'text' })
+      .get( process.env.PUBLIC_URL + '/data/Electric_Vehicle_Population_Data.csv', { responseType: 'text' })
       .then((response) => {
         Papa.parse(response.data, {
           header: true,
