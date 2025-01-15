@@ -22,7 +22,7 @@ const DashBoard = ({data}) => {
   return (
     <div className='container'>
         <div style={{ backgroundColor:"grey",color:'#333', width:'auto',height:"40px",fontStyle:"bold"}}>
-          <h2>eletric vehicles population</h2> </div>
+          {/* <h2>eletric vehicles population</h2> </div>
          <Grid2  container sx={{marginLeft:'5%'}}>
          <Grid2 md={2.2}>
 <Paper  elevation={3} sx={{margin:'10px' ,padding:"10px",width:'250px'}}>
@@ -64,7 +64,7 @@ const DashBoard = ({data}) => {
 </Paper>
 
 </Grid2>
-<Grid2 md={2.2}>
+<Grid2 md={2.1}>
 <Paper  elevation={3} sx={{margin:'10px' ,padding:"10px",width:'250px'}}>
 <Typography variant='h6'>country</Typography>
 <select style={{width:'200px',backgroundColor:'purple',height:'30px',color:"white"}}>
@@ -75,7 +75,7 @@ const DashBoard = ({data}) => {
 </Paper>
 
 </Grid2>
-<Grid2 md={2.2}>
+<Grid2 md={2.1}>
 <Paper  elevation={3} sx={{margin:'10px' ,padding:"10px",width:'250px'}}>
 <Typography variant='h6'>city</Typography>
 <select style={{width:'200px',backgroundColor:'purple',height:'30px',color:"white"}}>
@@ -88,7 +88,7 @@ const DashBoard = ({data}) => {
 </Grid2>
 
 
-          </Grid2> 
+          </Grid2>  */}
           <Grid container sx={{marginLeft:'10px'}}>
             <Grid md={3.2} sx={{margin:"7px"}}>
 <Paper elevation={3}>
